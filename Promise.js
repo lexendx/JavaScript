@@ -63,9 +63,7 @@ const promiseFive = new Promise(function(resolve, reject){
     },1000)
 
 })
-async function ConsumePromiseFive() {
-    const respons= await promiseFive
-    console.log(respons);
+
     
     
 }ConsumePromiseFive()
